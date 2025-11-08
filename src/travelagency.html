@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travels - Book Your Adventure</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo">Wanderlust Travels</div>
+        <nav>
+            <a href="travelagency.html">Home</a>
+<a href="packages.html">Tour Packages</a>
+           
+            <a href="booking.php">My Booking</a> 
+            <a href="login.php" class="cta-button"> Login</a>
+           <a href="feedback.php">Feedback</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Book Your Dream Getaway. Effortlessly.</h1>
+            <p>Search over 50 breathtaking destinations and find the perfect package for your next adventure.</p>
+            
+            <form action="packages.php" method="GET" class="search-widget">
+                <input type="text" name="destination" placeholder="Where do you want to go?">
+                <input type="date" name="start_date">
+                <select name="duration">
+                    <option value="">Select Duration</option>
+                    <option value="3-5">3 - 5 Days</option>
+                    <option value="6-9">6 - 9 Days</option>
+                    <option value="10+">10+ Days</option>
+                </select>
+                <button type="submit" class="button search-btn">Search Tours</button>
+            </form>
+        </div>
+    </main>
+
+    <section class="featured-packages">
+        <h2>Our Popular Tour Packages</h2>
+        <div class="package-grid">
+            <div class="package-card">
+                <h3>Paris </h3>
+                <p>Destination: France</p>
+                <p>Duration: 7 Days</p>
+                <p>Cost: $1800</p>
+                <a href="#" class="button">Details</a>
+            </div>
+            <div class="package-card">
+                <h3>Bali Beach Escape</h3>
+                <p>Destination: Indonesia</p>
+                <p>Duration: 5 Days</p>
+                <p>Cost: $1250</p>
+                <a href="#" class="button">Details</a>
+            </div>
+            <div class="package-card">
+                <h3>Swiss Alps Trek</h3>
+                <p>Destination: Switzerland</p>
+                <p>Duration: 10 Days</p>
+                <p>Cost: $2500</p>
+                <a href="#" class="button">Details</a>
+            </div>
+            <div class="package-card">
+                <h3>Kyoto Cultural Journey</h3>
+                <p>Destination: Japan</p>
+                <p>Duration: 8 Days</p>
+                <p>Cost: $2100</p>
+                <a href="#" class="button">Details</a>
+            </div>
+            <div class="package-card">
+                <h3>Safari Adventure</h3>
+                <p>Destination: Kenya</p>
+                <p>Duration: 9 Days</p>
+                <p>Cost: $3200</p>
+                <a href="#" class="button">Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Happy Customers Say</h2>
+        <div class="testimonial-grid">
+            <div class="review-card">
+                <p>"Seamless booking and excellent hotel selection. Highly recommend Wanderlust Travels for stress-free vacations!"</p>
+                <p class="review-author">— Jane D. from Seattle</p>
+            </div>
+            <div class="review-card">
+                <p>"The best package deal I've ever found. Great value for money and unforgettable experiences from start to finish."</p>
+                <p class="review-author">— Mark S. from London</p>
+            </div>
+            <div class="review-card">
+                <p>"Truly a dream getaway! Every detail was perfect, from the flights to the incredible local tours."</p>
+                <p class="review-author">— Emily R. from Sydney</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Wanderlust Travels. All rights reserved.</p>
+    </footer>
+</body>
+</html>
